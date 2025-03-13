@@ -8,3 +8,5 @@ This project implements the **Hashtagging Microservice** for ECS160-HW3. It proc
 This repository consists of:
 - **Hashtagging Service** - Assigns relevant hashtags using LLM analysis.
 - **JUnit Tests** - Validates hashtagging logic.
+- **ModerationControllerTest** verifies both failure and success paths by simulating a call to the hashtagging service.
+- **HashtaggingControllerTest** verifies that the Hashtagging service returns the expected hashtag for different inputs.
