@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HashtaggingController {
-
     @PostMapping("/hashtag")
     public ResponseEntity<HashtagResponse> hashtag(@RequestBody HashtagRequest request) {
         String content = request.getPostContent();
