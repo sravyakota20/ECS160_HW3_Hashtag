@@ -21,8 +21,12 @@ public class HashtaggingController {
         // Example rule: if content mentions "security", tag as #security; otherwise, default.
         if (content.toLowerCase().contains("security")) {
             return "#security";
+        } else if (content.toLowerCase().contains("vacation")) {
+            return "#vacation";
+        } else if (content.toLowerCase().contains("happy")) {
+            return "#happy";
         }
-        // You may add more sophisticated logic or LLM integration here.
+        // sophisticated logic or LLM integration here.
         return "#bskypost";
     }
 
