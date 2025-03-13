@@ -11,7 +11,7 @@ This repository consists of:
 - **ModerationControllerTest** verifies both failure and success paths by simulating a call to the hashtagging service.
 - **HashtaggingControllerTest** verifies that the Hashtagging service returns the expected hashtag for different inputs.
 
-- LLAMA integration - i have downloaded various LLAMA related modules and installed and was able to write at test program, but I get the timeout. I cant figure out how to set the timeout, it is timing out in 5 seconds, not enuf time for model to respond.
+- LLAMA integration - I have downloaded various LLAMA related modules and installed and was able to write at test program, but I get the timeout. I cant figure out how to set the timeout, it is timing out in 5 seconds, not enuf time for model to respond.
 
 [main] INFO io.github.ollama4j.models.request.OllamaGenerateEndpointCaller -- Asking model: {
   "model" : "example",
