@@ -9,6 +9,7 @@ public class HashtaggingController {
     @PostMapping("/hashtag")
     public ResponseEntity<HashtagResponse> hashtag(@RequestBody HashtagRequest request) {
         String content = request.getPostContent();
+        System.out.println("HashTag: Received request: " + content);
         // Here you would integrate with the LLAMA-3 model via Ollama4j.
         // For demo purposes, we simulate hashtag generation.
         String hashtag = generateHashtag(content);
